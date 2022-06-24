@@ -1,0 +1,20 @@
+/* Captura de datos de entradas al cine */
+#include<conio.h>
+#include<stdio.h>
+char pel [30];
+int np, cb, tp;
+main()
+ {
+ printf("CIN%cPOLIS LOS MOCHIS \n\n", 144);
+ printf("Nombre de la pel%ccula: ",161), gets (pel);
+ printf("\n N%cumero de personas:",163);scanf("%d",&np);
+ if(np>4) cb=50; else cb=60;
+
+ printf("\n DESPLIEGUE DE INFORMACI%cN", 224);
+ printf("\n Costo del boleto: %d",cb);
+ tp= np*cb;
+ printf("\n Total a pagar: %d", tp);
+ printf("\n\n Autor: Irvin Adian");
+ getch();
+
+ }
